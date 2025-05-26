@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+    script(src='/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content     
+    section#introsection  
+      div Welcome to Dance Academy       
+      div.small  Eat Sleep Dance Repeat  
+    section#missionsection
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.cardbox
+          div.cardimg
+            img(src="/dance.png")       
+
+          div.cardcontent
+            p the is best dance academy of karachi  
+      div.card
+        h3 Dance The Way You Like
+        div.cardbox
+          div.cardimg
+            img(src="/dance1.png")       
+
+          div.cardcontent
+            p the is best dance academy of karachi        
+      div.card
+        h3 Expert Teaching
+        div.cardbox
+          div.cardimg
+            img(src="/dance2.png")       
+
+          div.cardcontent
+            p the is best dance academy of karachi        
+    section#sponsorsection 
+      h2  Our Sponsors
+      div#sponsors
+        img(src="/5.png", alt="sponser image" class="spimage")
+        img(src="/6.png", alt="sponser image" class="spimage")
+        img(src="/7.png", alt="sponser image" class="spimage")
+        img(src="/8.png", alt="sponser image" class="spimage")

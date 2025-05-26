@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Winky Sans", sans-serif;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 45px;
+}
+
+#logo img{
+    height: 42px;
+}
+
+#navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 13px 14px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 8px 30px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#navbar li a:hover {
+    color: red;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#introsection {
+    color: white;
+    background: url('https://images.unsplash.com/photo-1495109251996-432ef0887b37?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 400px;
+    /* background-color: blueviolet; */
+
+}
+
+#missionsection {
+
+    margin: auto;
+    width: 80%;
+    height: 350px;
+}
+
+#missionsection h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px 23px;
+}
+
+#missionsection:hover .card{
+    opacity: .5;
+    filter: blur(3px);
+}
+
+#missionsection .card:hover{
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1.2)
+}
+
+
+.card {
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 29%;
+    margin: 4px 21px;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardimg{
+    height: 130px;
+    padding: 14px 8px;
+}
+
+.cardimg img{
+    height: inherit;
+}
+
+.cardcontent {
+padding: 0 10px;
+}
+
+.cardcontent p{
+    font-size: 19px;
+}
+
+.small {
+    font-size: 2rem;
+}
+
+#sponsorsection {
+    height: 300px;
+    background-color: rgb(127, 136, 136);
+}
+#sponsors{
+    height: 180px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+#sponsorsection h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 23px;
+    padding-top: 30px;
+    /* color: white; */
+}
+
+#footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 23px;
+}
